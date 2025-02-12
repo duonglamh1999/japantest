@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import imgSrc from '../public/IMG_3264.jfif'
 
 interface Question {
   question: string;
@@ -97,7 +98,7 @@ function App() {
           <h1>Congratulations! 🎉</h1>
           <h2>You are officially my Valentine!</h2>
           <div className="city-image">
-            <img src="../public/IMG_3264.jfif" alt="by bo" />
+            <img src={imgSrc} alt="City Image" />
           </div>
           <p>Your city is <b>Duong Lam!</b></p>
           <p>Happy Valentine! Let's fuck shit up in Japan together!❤</p>
